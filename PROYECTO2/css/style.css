@@ -1,0 +1,173 @@
+*{
+    margin : 0 ;
+    padding : 0;
+}
+body{
+background-image: url('https://xeral.net/wp-content/uploads/2018/01/C%C3%B3mo-conseguir-que-una-p%C3%A1gina-web-est%C3%A9-bien-posicionada-1920.jpg'); 
+background-repeat: no-repeat;
+background-attachment: fixed;
+ background-size: 100% 100%;
+color: white;
+font-family:"eb garamond",serif;
+font-size: 24px;
+}
+div{
+width: 800px;
+height: 300px;
+background-color: #FCFBFB ;
+color: #000000 ;
+margin: 10px;
+padding: 0px 10px 20px 0px;
+border: 0px solid #999999;
+border-radius: 25px 0px 25px 0px;
+box-shadow: 0px 0px 0px ;
+}
+ul{
+    list-style: none;
+    margin-top: 0;
+} 
+
+ul li{
+    font-family: eb garamond",serif;
+    font-size: 24px;
+    height: 50px;
+}
+
+}
+td{
+    vertical-align: top;
+}
+.encabezado{
+    height: 400px;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 0px;
+    border: 0px;
+   background-color:rgba(255,255,255,0.5);
+    color: #000000;
+    text-align: center;
+    padding-top: 80px;
+font-family:"eb garamond",serif;
+font-size: 80px;
+
+}
+.piedepagina{
+    height: 5px;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 0px;
+    border: 0px;
+    background-color:#717171 ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*ESTILOS GENERALES*/
+
+nav ul{
+list-style: none;
+padding: 0;
+}
+/*BARRA*/
+nav li {
+line-height: 4rem;         
+position: relative;
+ margin-left: 150px;
+  margin-right: 10px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.menu ul {
+position: absolute;
+}
+/*TAMAÑO DE LA BARRA*/
+
+nav a {
+color: #0A0A0A;
+display: block;
+padding: 0 3.87em;
+text-decoration: none;
+transition: .4s;
+}
+
+nav a:hover {
+background: rgba(0,0,0,.5);
+}
+
+
+
+/*PRIMER NIVELbarra*/
+
+.menu {
+background:#F1EEEE      ;
+display: table;
+widht: 100x;
+}
+
+.menu > li {
+float: left;
+}
+
+
+
+
+/*SEGUNDO NIVELdespliegue1*/
+
+
+nav li li {
+background: white ;
+max-height: 0;
+overflow: hidden;
+transition: all .6s;
+widht: 200px;
+}
+
+nav li:hover > ul > li {
+max-height: 1000px;
+overflow: visible;
+}
+
+
+.menuv> li > ul {
+top: 100%;
+}
+
+
+mark {
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
